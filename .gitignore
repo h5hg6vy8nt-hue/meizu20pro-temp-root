@@ -1,0 +1,13 @@
+# Binaries and local artifacts are intentionally not tracked
+*.apk
+*.ko
+*.bin
+*.img
+*.log
+*.zip
+*.7z
+
+# OS noise
+.DS_Store
+Thumbs.db
+desktop.ini
