@@ -32,6 +32,21 @@
 
 ---
 
+## 下载与镜像
+
+本仓库镜像了指南用到的上游 APK、可选模块，以及重建的 GhostLock profile：
+
+- [DirtyFrag v1.17 APK](files/dirtyfrag/DirtyFrag-v1.17.apk)（GPL-2.0）
+- [GhostLock 上游 pre-release APK](files/ghostlock/GhostLock-release.apk) / [1.2 (583) APK](files/ghostlock/GhostLock_1.2_583.apk)（Apache-2.0）
+- [可选 dfroot 5.15 内核模块](files/dirtyfrag/module/dfroot-android13-5.15.ko)（MPL-2.0）
+- [GhostLock profile（重建）](profiles/meizu20pro-5.15.119/profile-0-1.conf)
+- [全部 SHA-256](SHA256SUMS)
+- [二进制许可证与来源说明](files/README.md)
+
+> 二进制文件保留上游许可证，**不**按 CC BY-SA 4.0 重新授权。TIIEHenry 仓库的原始 profile 没有许可证，因此本仓库只提供自己重建的配置，不复制原文件。
+
+---
+
 ## 两条路线对比
 
 | | DirtyFrag | GhostLock |

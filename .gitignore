@@ -1,6 +1,8 @@
-# Binaries and local artifacts are intentionally not tracked
+# Binaries are only tracked when explicitly placed under files/
 *.apk
+!files/**/*.apk
 *.ko
+!files/**/*.ko
 *.bin
 *.img
 *.log

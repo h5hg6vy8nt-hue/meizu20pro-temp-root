@@ -28,6 +28,13 @@ GhostLock 利用 **CVE-2026-43499**：futex / rt_mutex 清理路径上的 use-af
   - 作者自称同机实测；没有上游项目为这个仓库背书。
 - 5.15 dfroot 模块参考：<https://github.com/qq2070006042-create/yuehong-privilege-assistant>（MPL-2.0）
 
+本仓库镜像/重建的文件：
+
+- APK：[GhostLock-release.apk](../files/ghostlock/GhostLock-release.apk)（上游 pre-release，Apache-2.0）
+- APK：[GhostLock_1.2_583.apk](../files/ghostlock/GhostLock_1.2_583.apk)（指南实测构建）
+- Profile：[profile-0-1.conf](../profiles/meizu20pro-5.15.119/profile-0-1.conf) / [profile-3-4.conf](../profiles/meizu20pro-5.15.119/profile-3-4.conf)（本仓库重建，CC BY-SA 4.0）
+- 来源与许可证说明：[files/ghostlock/README.md](../files/ghostlock/README.md)、[profiles/README.md](../profiles/README.md)
+
 > 如果你要转载/再分发 TIIEHenry 的文件，请先自行确认授权。
 
 ---

@@ -63,6 +63,19 @@
 | [RikkaApps/Shizuku](https://github.com/RikkaApps/Shizuku) | GhostLock 的 shell 入口 | Apache-2.0 | 否，仅链接 |
 | [tytydraco/LADB](https://github.com/tytydraco/LADB) | 纯手机端 adb 备选 | 见仓库（NOASSERTION） | 否，仅链接 |
 
+### 本仓库镜像文件
+
+| 本仓库路径 | 上游 | 许可证 | 说明 |
+| --- | --- | --- | --- |
+| `files/dirtyfrag/DirtyFrag-v1.17.apk` | mitschud/DirtyFrag | GPL-2.0 | 未修改上游构建；附 GPL-2.0 全文与源码链接 |
+| `files/dirtyfrag/module/dfroot-android13-5.15.ko` | yuehong-privilege-assistant | MPL-2.0 | 可选模块；附 MPL-2.0 全文 |
+| `files/ghostlock/GhostLock-release.apk` | YuKongA/ghostlock-app | Apache-2.0 | 上游 pre-release |
+| `files/ghostlock/GhostLock_1.2_583.apk` | YuKongA/ghostlock-app（镜像自 TIIEHenry） | Apache-2.0 | 指南实测构建；未重新签名 |
+| `profiles/meizu20pro-5.15.119/profile-0-1.conf` | 本仓库重建 | CC BY-SA 4.0 | 原始 TIIEHenry profile 不再分发 |
+| `profiles/meizu20pro-5.15.119/profile-3-4.conf` | 本仓库重建 | CC BY-SA 4.0 | 原始成功那次的 CPU 组合 |
+
+所有二进制的 SHA-256 见仓库根目录的 [SHA256SUMS](../SHA256SUMS)。二进制文件**不**按本仓库的 CC BY-SA 4.0 授权，各自遵循上表许可证。
+
 ### 关于 TIIEHenry/Meizu20ProRoot
 
 该仓库**没有 LICENSE 文件**，按默认版权规则保留所有权利。本指南：

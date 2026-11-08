@@ -45,6 +45,9 @@ DirtyFrag 利用的是 **CVE-2026-43284（Dirty Frag）**，一个 IPsec ESP 接
 - 版本：v1.17（`versionCode` 34，`versionName` 1.17）
 - APK 大小：`292,317` 字节
 - SHA-256：`e02bd8e11433aa9676d9fb5d4bc7f42825d588015554d5a9e6fdae831a572337`
+- 本仓库镜像：[DirtyFrag-v1.17.apk](../files/dirtyfrag/DirtyFrag-v1.17.apk)（GPL-2.0，未修改的上游构建）
+- 可选 5.15 模块：[dfroot-android13-5.15.ko](../files/dirtyfrag/module/dfroot-android13-5.15.ko)（MPL-2.0，非必需）
+- 来源与许可证说明：[files/dirtyfrag/README.md](../files/dirtyfrag/README.md)
 
 校验：
 
